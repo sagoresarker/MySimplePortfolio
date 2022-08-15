@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagore Sarker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/sagoresarker.jpeg' %}">
+                    <hr>
+                    <h4>Hi I am Sagore!</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>About Me</h4>
+                    <hr>
+                    <p>
+                        B.Sc third-year(6th Semester) of computer science and engineering student working towards a career in Backend Engineer (Python and Golang). I'm improving my skills in API development for distributed systems, FAST API, Flask, Docker, Redis, Microservices, MongoDB, and PostgreSQL. I'm also writing on the Medium. 
+                    </p>
+                     <p> In short, I'm in love with Backend especially large-scale distributed systems, and working towards developing my skillset and trying to build some interesting stuff. </p> 
+                    <p>I'm a problem-solver on the Leetcode platform.</p>
+
+                    <ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Full stack developer at FOI laboratories.</p>
+					<p>Designed, built and managed a lab management system as a sole developer. System supported thousands of customers with a UI for Lab Admins and a customer dashboard.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
+                    <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+    
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+    </div>
+    
+</body>
+</html>
